@@ -1,5 +1,6 @@
 const path = require('path')
 module.exports = {
+  publicPath: './',
   transpileDependencies: ['vue-echarts', 'resize-detector'],
   // 第三方插件配置
   pluginOptions: {
